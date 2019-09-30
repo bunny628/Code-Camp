@@ -1,0 +1,43 @@
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+  }
+
+  table th{
+      background-color: #555555; 
+      color: #ffffff;
+  }
+  th, td{
+      padding: 20px;
+      text-align: center;
+  }
+
+  body {
+      margin-left: 30rem;
+      margin-top: 10rem;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  button {
+      background-color: #555555;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 100px;
+  }
+
+  .btngreen {
+      background-color: #4CAF50;
+  }
+  .btnred{
+      background-color: #f44336;
+  }
+
+  .userView{
+      position: relative;
+      margin-bottom: 10px;
+  }
