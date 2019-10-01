@@ -1,70 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>ToDoApp</title>
-</head>
-<body>
-    <h3>Welcome! </h3>
+  </head>
+  <body>
+    <h3>Welcome!</h3>
     <a href="./userList.html"><button class="userView">View Users</button></a>
-    <input type="text" placeholder="Search..." class="searchbox">
-    <img src="magnifying-glass.png" alt="search" class="icon">
+    <input type="text" placeholder="Search..." class="searchbox" />
+    <img src="magnifying-glass.png" alt="search" class="icon" />
     <table>
-    <thead>
+      <thead>
         <tr>
-            <th>#</th>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Status</th>
-            <th>Number of ToDos</th>
-            <th>Option</th>
+          <th>#</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Status</th>
+          <th>Number of ToDos</th>
+          <th>Option</th>
         </tr>
-    </thead>
-    <tbody>
+      </thead>
+      <tbody>
         <tr>
-            <td>1</td>
-            <td>Vannessa</td>
-            <td>Labandera</td>
-            <td>On-processed</td>
-            <td>5</td>
-            <td>
-                <a href="updateTodos.html"><button class="btngreen">Update</button></a>
-                <a href="delete.html"><button class="btnred">Delete</button></a>
-            </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Karen</td>
-            <td>Tig Hugas Plato</td>
-            <td>Completed</td>
-            <td>6</td>
-            <td>
-                <button class="btngreen">Update</button>
-                <button class="btnred">Delete</button>
-            </td>
+          <td>1</td>
+          <td>Vannessa</td>
+          <td>Labandera</td>
+          <td>On-processed</td>
+          <td>5</td>
+          <td>
+            <a href="updateTodos.html"
+              ><button class="btngreen">Update</button></a
+            >
+            <a href="delete.html"><button class="btnred">Delete</button></a>
+          </td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>Riche</td>
-            <td>Tig Kaon </td>
-            <td>Completed</td>
-            <td>6</td>
-            <td>
-                <button class="btngreen">Update</button>
-                <button class="btnred">Delete</button>
-            </td>
+          <td>2</td>
+          <td>Karen</td>
+          <td>Tig Hugas Plato</td>
+          <td>Completed</td>
+          <td>6</td>
+          <td>
+            <button class="btngreen">Update</button>
+            <button class="btnred">Delete</button>
+          </td>
         </tr>
         <tr>
-            <td>
-                <a href=""><button>&lt;</button></a>
-                Page 1/2
-                <a href=""><button>&gt;</button></a>
-            </td>
+          <td>3</td>
+          <td>Riche</td>
+          <td>Tig Kaon</td>
+          <td>Completed</td>
+          <td>6</td>
+          <td>
+            <button class="btngreen">Update</button>
+            <button class="btnred">Delete</button>
+          </td>
         </tr>
-    </tbody>
-</table>
-</body>
+        <tr>
+          <td>
+            <a href=""><button>&lt;</button></a>
+            Page 1/2
+            <a href=""><button>&gt;</button></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="data.js"></script>
+  </body>
 </html>

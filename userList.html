@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Users</title>
-</head>
-<body>
-        <h3>Welcome! </h3>
-        <a href="./index.html"><button class="userView">View ToDos</button></a>
-        <input type="text" placeholder="Search..." class="usersearchbox">
-        <img src="magnifying-glass.png" alt="search" class="usericon">
-        <table>
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Occupation</th>
-                <th>Option</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+  </head>
+  <body>
+    <h3>Welcome!</h3>
+    <a href="./index.html"><button class="userView">View ToDos</button></a>
+    <input
+      id="searchInput"
+      type="text"
+      placeholder="Search..."
+      class="usersearchbox"
+    />
+    <img src="magnifying-glass.png" alt="search" class="usericon" />
+    <table id="users">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Occupation</th>
+          <th>Option</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
                 <td>1</td>
                 <td><a href="user.html"> Vannessa </a></td>
                 <td>Pasa-an</td>
@@ -52,16 +57,16 @@
                     <button class="btngreen">Update</button>
                     <button class="btnred">Delete</button>
                 </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href=""><button>&lt;</button></a>
-                    Page 1/2
-                    <a href=""><button>&gt;</button></a>
-                </td>
-            </tr>
-        </tbody>
+            </tr> -->
+        <!-- <tr>
+          <td>
+            <a href=""><button>&lt;</button></a>
+            Page 1/1
+            <a href=""><button>&gt;</button></a>
+          </td>
+        </tr> -->
+      </tbody>
     </table>
-    
-</body>
+    <script src="data.js"></script>
+  </body>
 </html>
